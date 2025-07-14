@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>kennzy</title>
+  <title>beizaa</title>
   <style>
     :root {
       --bg-color: #1a1a1a;
@@ -193,17 +193,7 @@
       }
     }
     typeEffect();
-
-    function toggleMusic() {
-      if (audio.paused) {
-        audio.play();
-        playBtn.textContent = "⏸  ";
-      } else {
-        audio.pause();
-        playBtn.textContent = "🎵";
-      }
-    }
-
+    
     function updateTime() {
       const now = new Date();
       document.getElementById("time").textContent = now.toLocaleTimeString("id-ID");
